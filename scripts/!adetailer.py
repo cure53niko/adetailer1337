@@ -940,7 +940,7 @@ def on_after_component(component, **_kwargs):
 
 
 def on_ui_settings():
-    section = ("ADetailer", ADETAILER)
+    section = ("ADetailer1337", ADETAILER)
     shared.opts.add_option(
         "ad_max_models",
         shared.OptionInfo(
